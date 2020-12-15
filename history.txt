@@ -1,0 +1,71 @@
+    1  clear
+    2  apt-get update
+    3  clear
+    4  git clone https://github.com/Zendriiix-Softwares/Assignment1.git
+    5  ls
+    6  cd Assignment1/
+    7  ls
+    8  sudo vim abc.txt
+    9  git add .
+   10  git commit -m "main branch"
+   11  git status
+   12  ls
+   13  git branch 
+   14  git push origin master
+   15  git status
+   16  clear
+   17  git branch dev1
+   18  git branch dev2
+   19  git branch release
+   20  git add .
+   21  git commit -m "branches added"
+   22  git push origin master
+   23  git branch
+   24  git checkout dev1
+   25  vim a.txt
+   26  git add .
+   27  git commit -m "dev1 files"
+   28  git push origin dev1
+   29  git status
+   30  git checkout dev2
+   31  ls
+   32  git branch
+   33  vim b.txt
+   34  ls
+   35  git add .
+   36  git commit -m "dev2 file added"
+   37  git push origin dev2
+   38  git status
+   39  git branch
+   40  git checkout release
+   41  vim c.txt
+   42  ls
+   43  git add . 
+   44  git commit -m "release file added"
+   45  git push origin release
+   46  git status
+   47  git merge dev1
+   48  git add . 
+   49  git commit -m "Dev1 merged to release branch"
+   50  git push origin release
+   51  git status
+   52  git branch
+   53  git merge dev2
+   54  git add .
+   55  git commit -m "dev2 merged to release branch"
+   56  git push origin release
+   57  ls
+   58  git status
+   59  clear
+   60  ls
+   61  git branch
+   62  git checkout master
+   63  git status
+   64  git merge release
+   65  git add .
+   66  git commit -m "release branch merged to master on release date "
+   67  git push origin master 
+   68  git status
+   69  git history
+   70  history
+   71  history > history.txt
